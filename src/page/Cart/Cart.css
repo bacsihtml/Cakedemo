@@ -1,0 +1,132 @@
+.tables {
+    display: flex;
+}
+
+.cart__path h2 {
+    color: #fff;
+    margin: 0 16px;
+}
+
+
+.table {
+    padding: 0px 40px 0 9%;
+    width: 65%;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table th {
+    padding: 40px 28px 28px 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table tbody .table__nameproduct {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.table tbody tr td {
+    margin: 26px;
+    text-align: center;
+    border-top: 3px solid #ccc;
+}
+
+.table tr td img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+    transform: translateY(3px);
+}
+
+/* table two */
+
+.table__tow {
+    width: 376px;
+    padding: 22px;
+    border: 1px solid #ccc;
+    margin-top: 28px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.table__subtotal, 
+.table__shipping,
+.table__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 34px;
+}
+
+.table__subtotal {
+    margin-top: 20px;
+}
+
+.table__subtotal h6,
+.table__shipping h6,
+.table__total h6 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table__shipping > *:not(h6) {
+    text-align: right;
+}
+
+.table__shipping input[type="radio"] {
+    margin-left: 5px;
+}
+
+.table__shipping input[type="radio"],
+.table__shipping span {
+    display: inline-block;
+    vertical-align: middle; /* Đảm bảo các phần tử được căn giữa theo chiều dọc */
+}
+
+.table__total {
+    margin-bottom: 20px;
+}
+
+.table__total span {
+    color: var(--text-titlep);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.table__total-button {
+    width: 100%;
+}
+
+.shipping-number {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-titlep);
+}
+
+.coupon__code {
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+}
+
+.coupon__input {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 15px;
+    margin-right: 8px;
+}
+
+.coupon__input input {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.coupon__button {
+    width: 150px;
+    padding: 15px;
+}

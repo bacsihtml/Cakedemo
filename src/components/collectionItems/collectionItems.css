@@ -1,0 +1,28 @@
+.collectionItems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.collectionItem-img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.collectionItem-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--text-titleb);
+    font-weight: bold;
+}
+
+.collectionItem-text {
+    line-height: 1.6;
+    margin: 8px 0;
+}
+

@@ -1,0 +1,76 @@
+.checkout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__form {
+    width: 60%;
+}
+
+.form-group {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 14px;
+}
+
+.payment-methods {
+    width: 40%;
+}
+
+.btn__onl {
+    width: 140px;
+    height: 42px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.paypal {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../asset/imgshop/Pay/paypal-.png);
+    margin-right: 8px;
+    background-color: #FFC439;
+}
+
+.amazonpay {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../asset/imgshop/Pay/Amazon-Pay-.png);
+    background-color: #FBD676;
+}
+
+.card-pay {
+    width: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: var(--text-titlep);
+}
+
+.direct-payment {
+    width: 288px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--text-titlep);
+}
+
+.btn__order {
+    width: 288px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: var(--text-titlep);
+}

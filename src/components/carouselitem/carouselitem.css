@@ -1,0 +1,23 @@
+.carousel-img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* .carousel-item-text {
+    font-size: 1.15rem;
+    margin: 40px 0 40px 0;
+    padding: 0px 20px;
+    white-space: normal;
+    color: #617d98;
+} */

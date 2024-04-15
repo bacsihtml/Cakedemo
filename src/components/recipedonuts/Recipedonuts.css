@@ -1,0 +1,32 @@
+.recipedonuts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipedonuts-cards {
+    display: flex;
+}
+
+.flex-cl-fe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.recipedonut-card {
+    background-color: var(--bg-xanhnhat);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.recipedonut-card_title {
+    color: var(--text-titleb);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.recipedonut-card_text {
+    padding: 28px 0;
+}

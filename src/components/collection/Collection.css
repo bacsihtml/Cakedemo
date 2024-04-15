@@ -1,0 +1,21 @@
+.collection {
+    display: flex;
+}
+
+.collection-texts {
+    width: 20%;
+}
+
+.collection-title {
+    padding-bottom: 28px;
+}
+
+.text-p {
+    line-height: 1.6;
+    padding: 28px 0;
+}
+
+.list {
+    display: flex;
+    width: 74%;
+}
